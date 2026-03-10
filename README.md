@@ -330,11 +330,7 @@ This is a Stage 1 system. Real production systems need:
 
 ---
 
-## Interview Talking Points
-
-If asked to explain this project in 2 minutes:
-
-"I built a genuine agentic AI system — not a two-step LLM chain, but a system
+Takeaways: I built a genuine agentic AI system — not a two-step LLM chain, but a system
 where the LLM autonomously decides which tools to call, in what order, with what
 arguments, and when it has enough information to stop.
 
@@ -350,8 +346,10 @@ reasoning happened autonomously — I didn't code that sequence. The LLM decided
 
 The key PM insight I took from building this: the agent is only as capable as
 its tools, and only as intelligent as its system prompt. Both are product
-decisions, not engineering decisions."
+decisions, not engineering decisions.
 
----
+ 
 
 *Stage 1 complete. Stage 2 adds human approval gates and persistent reasoning logs.*
+
+
